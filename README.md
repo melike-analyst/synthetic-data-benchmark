@@ -1,8 +1,8 @@
 # Synthetic Data Benchmark
 
 A reproducible benchmark comparing three approaches to synthetic tabular data
-generation — **Gaussian Copula**, **CTGAN**, and **LLM-based few-shot
-generation** — across two public datasets (UCI Adult Income, Credit Card
+generation **Gaussian Copula**, **CTGAN**, and **LLM-based few-shot
+generation**  across two public datasets (UCI Adult Income, Credit Card
 Fraud Detection), evaluated on statistical fidelity, machine learning utility
 (Train-Synthetic-Test-Real), and privacy risk (Distance to Closest Record).
 
@@ -15,7 +15,7 @@ reproducible implementation.
 
 Aggregate privacy metrics can hide real risk: Gaussian Copula's *mean*
 distance-to-closest-record on the Adult dataset looked safe (0.091), but its
-*minimum* was exactly 0 — at least one synthetic row was an exact duplicate
+*minimum* was exactly 0   at least one synthetic row was an exact duplicate
 of a real training record. See [`report/REPORT.md`](report/REPORT.md) for
 the full write-up, including a discussion of how schema completeness affects
 both fidelity and privacy scores.
