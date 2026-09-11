@@ -1,0 +1,5 @@
+method,dataset,generation_time_sec,cost_usd
+gaussian_copula,adult,7.63842511177063,0.0
+gaussian_copula,creditcard,284.88657546043396,0.0
+ctgan,adult,593.03,0.0
+ctgan,creditcard,4442.2,0.0
